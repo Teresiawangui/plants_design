@@ -72,7 +72,7 @@ display: flex;
 }
 body{
  margin-left: 10%;
-    background-color: azure;
+    background-color: rgb(253, 253, 251);
     width: 1300px;
     margin-right: 10%;
     justify-content: space-between;
@@ -140,35 +140,32 @@ justify-content: space-between;
     width: 50px;
     height: 40px;
   }
-  @media only screen and (min-width: 769px) and (max-width: 912px) {
+  @media only screen and (min-width: 280px) and (max-width: 768px) {
     .flower{
-        width: 110px;
-        height: 300px;
-        object-fit: cover;
+        width: 5%
     }
     .urban{
-        width: 350px;
-        height: 300px;
-        object-fit: cover;
+        width: 30%;
+        height: 30%;
+        
     }
     #jungle{
         display: flex;
-        object-fit: cover;
-        gap: 10%;
+        flex-wrap: wrap;
+        gap: 1%;
+        width: 30%;
+        height: 30%;
+        font-size: xx-small;
     }
     .lady{
         border: solid 2px;
-        width: 150px;
-        height: 130px;
+        width: 20%;
         border-radius: 10%;
-        object-fit: cover;
     }
     .lady2{
-        width: 200px;
-        height: 180px;
+        width: 20%;
         border: solid 2px;
         border-radius: 10%;
-        object-fit: cover;
     }
     #footer{
         display: flex;
@@ -178,15 +175,22 @@ justify-content: space-between;
         display: flex;
         gap: 15%;
         justify-content: space-between;
+        width: 40%;
+        flex-wrap: wrap;
+        font-size: small;
     }
     #sale{
         display: flex;
-        gap: 25%;
-        justify-content: space-between;
+        gap: 5%;
+    width: 20%;
+    font-size: small;
+
     }
     #popcorn{
         display: flex;
-        gap: 25%;
+        flex-wrap: wrap;
+        gap: 5%;
+        width: 25%;
         justify-content: space-between;
     }
     .glassplant{
@@ -195,17 +199,21 @@ justify-content: space-between;
     }
     .leaf{
         display: flex;
-        gap: 25%;
-        justify-content: space-between;
+        gap: 2%;
+        width: 25%;
+        flex-wrap: wrap;
+        font-size: small;
+    
     }
     #cactus{
         display: flex;
-        gap: 35%;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 5%;
     }
     .imageflower{
-    height: 530px;
     object-fit: cover;
+    width: 50%;
+    height: 40%;
     }
     .inspiration{
     display: flex;
@@ -221,34 +229,46 @@ justify-content: space-between;
         justify-content: space-between;
     }
     .glassplant{
-        gap: 25%;
+        gap: 5%;
+        width: 30%;
+        flex-wrap: wrap;
+        font-size: x-small;
     }
     #women{
-        margin-left: 20%;
         display: flex;
-        gap: 15%;
+        flex-wrap: wrap;
+        gap: 1%;
+
+        
         
     }
     span{
         color: rgb(25, 241, 25);
+        font-size: x-small;
     }
     .butt{
         background-color: rgb(21, 236, 21);
         color: antiquewhite;
     }
     #spring{
-        gap: 50%;
-        justify-content: space-between;
+        gap: 1%;
+        width: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: x-small;
+        
         
     }
     .clients{
         text-align: center;
     }
     .navbar{
-        gap: 10%;
+        gap: 2%;
         display: flex;
         text-align: center;
-        justify-content: space-between;
+        width: 5%;
+        font-size: x-small;
+        flex-wrap: wrap;
     
     }
     .plant1{
@@ -257,27 +277,58 @@ justify-content: space-between;
     }
     .plant2{
         display: flex;
-        gap: 5%;   
+        gap: 1%;   
     }
     
       .amaizing{
-    gap: 10%;
+    gap: 2%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
       } 
       .amaizing2{
-        gap: 10%;
+        gap: 2%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    
       } 
       .amaizing3{
-        gap: 10%;
+        gap: 2%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
       } 
       #popcorn1{
         gap: 5%;
         display: flex;
+      }
+      .flower9{
+       width: 40%; 
+      }
+      #word{
+        font-size: x-small;
+      }
+      .img{
+        width: 15%;
+        font-size: small;
+      }
+      .img1{
+        width: 35%;
+      }
+      .img2{
+        width: 45%;
+      }
+      .img3{
+        width: 35%;
+      }
+      .img4{
+        width: 35%;
+        
+      }
+      .cactii{
+        width: 30%;
+        font-size: x-small;
+      }
+      .img5{
+        width: 30%;
       }
   }
     
