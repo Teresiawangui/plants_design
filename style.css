@@ -1,0 +1,288 @@
+.flower{
+    width: 110px;
+    height: 300px;
+    object-fit: cover;
+}
+.urban{
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
+#jungle{
+    display: flex;
+    object-fit: cover;
+    gap: 10%;
+}
+.lady{
+    border: solid 2px;
+    width: 150px;
+    height: 130px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.lady2{
+    width: 200px;
+    height: 180px;
+    border: solid 2px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+#footer{
+    display: flex;
+    gap: 28%;
+}
+#summer{
+    display: flex;
+    gap: 15%;
+    justify-content: space-between;
+}
+#sale{
+    display: flex;
+    gap: 25%;
+    justify-content: space-between;
+}
+#popcorn{
+    display: flex;
+    gap: 25%;
+    justify-content: space-between;
+}
+.glassplant{
+    display: flex;
+    justify-content: space-between;
+}
+.leaf{
+    display: flex;
+    gap: 25%;
+    justify-content: space-between;
+}
+#cactus{
+    display: flex;
+    gap: 35%;
+    justify-content: space-between;
+}
+.imageflower{
+height: 530px;
+object-fit: cover;
+}
+.inspiration{
+display: flex;
+}
+.grow{
+    display: flex;
+}
+body{
+ margin-left: 10%;
+    background-color: azure;
+    width: 1300px;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+.glassplant{
+    gap: 25%;
+}
+#women{
+    margin-left: 20%;
+    display: flex;
+    gap: 15%;
+    
+}
+span{
+    color: rgb(25, 241, 25);
+}
+.butt{
+    background-color: rgb(21, 236, 21);
+    color: antiquewhite;
+}
+#spring{
+    gap: 50%;
+    justify-content: space-between;
+    
+}
+.clients{
+    text-align: center;
+}
+.navbar{
+    gap: 10%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+.plant1{
+    display: flex;
+    gap: 5%;
+}
+.plant2{
+    display: flex;
+    gap: 5%;   
+}
+
+  .amaizing{
+gap: 10%;
+display: flex;
+justify-content: space-between;
+  } 
+  .amaizing2{
+    gap: 10%;
+display: flex;
+justify-content: space-between;
+  } 
+  .amaizing3{
+    gap: 10%;
+display: flex;
+justify-content: space-between;
+  } 
+  #popcorn1{
+    gap: 5%;
+    display: flex;
+  }
+  .icon{
+    width: 50px;
+    height: 40px;
+  }
+  @media only screen and (min-width: 769px) and (max-width: 912px) {
+    .flower{
+        width: 110px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .urban{
+        width: 350px;
+        height: 300px;
+        object-fit: cover;
+    }
+    #jungle{
+        display: flex;
+        object-fit: cover;
+        gap: 10%;
+    }
+    .lady{
+        border: solid 2px;
+        width: 150px;
+        height: 130px;
+        border-radius: 10%;
+        object-fit: cover;
+    }
+    .lady2{
+        width: 200px;
+        height: 180px;
+        border: solid 2px;
+        border-radius: 10%;
+        object-fit: cover;
+    }
+    #footer{
+        display: flex;
+        gap: 28%;
+    }
+    #summer{
+        display: flex;
+        gap: 15%;
+        justify-content: space-between;
+    }
+    #sale{
+        display: flex;
+        gap: 25%;
+        justify-content: space-between;
+    }
+    #popcorn{
+        display: flex;
+        gap: 25%;
+        justify-content: space-between;
+    }
+    .glassplant{
+        display: flex;
+        justify-content: space-between;
+    }
+    .leaf{
+        display: flex;
+        gap: 25%;
+        justify-content: space-between;
+    }
+    #cactus{
+        display: flex;
+        gap: 35%;
+        justify-content: space-between;
+    }
+    .imageflower{
+    height: 530px;
+    object-fit: cover;
+    }
+    .inspiration{
+    display: flex;
+    }
+    .grow{
+        display: flex;
+    }
+    body{
+     margin-left: 10%;
+        background-color: azure;
+        width: 1300px;
+        margin-right: 10%;
+        justify-content: space-between;
+    }
+    .glassplant{
+        gap: 25%;
+    }
+    #women{
+        margin-left: 20%;
+        display: flex;
+        gap: 15%;
+        
+    }
+    span{
+        color: rgb(25, 241, 25);
+    }
+    .butt{
+        background-color: rgb(21, 236, 21);
+        color: antiquewhite;
+    }
+    #spring{
+        gap: 50%;
+        justify-content: space-between;
+        
+    }
+    .clients{
+        text-align: center;
+    }
+    .navbar{
+        gap: 10%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    
+    }
+    .plant1{
+        display: flex;
+        gap: 5%;
+    }
+    .plant2{
+        display: flex;
+        gap: 5%;   
+    }
+    
+      .amaizing{
+    gap: 10%;
+    display: flex;
+    justify-content: space-between;
+      } 
+      .amaizing2{
+        gap: 10%;
+    display: flex;
+    justify-content: space-between;
+      } 
+      .amaizing3{
+        gap: 10%;
+    display: flex;
+    justify-content: space-between;
+      } 
+      #popcorn1{
+        gap: 5%;
+        display: flex;
+      }
+  }
+    
+  
+  
+  
+
+
